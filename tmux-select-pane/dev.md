@@ -1,0 +1,110 @@
+---
+canonical_url: https://waylonwalker.com/tmux-select-pane/
+cover_image: https://images.waylonwalker.com/tmux-select-pane.png
+description: https://youtu.be/CPZJZjN9YTY These are my MOST often used keybindings
+  that I use in tmux.  They allow me to https://waylonwalker.com/tmux-nav-2021/ for
+  more inf
+published: true
+tags:
+- cli
+- linux
+- tmux
+title: tmux slect-pane
+---
+
+https://youtu.be/CPZJZjN9YTY
+
+These are my MOST often used keybindings that I use in tmux.  They allow me to jump between splits with ease with a vim style layout.  I can hold mod and jump between panes with a familiar arrow key.
+
+``` bash
+bind -n M-h select-pane -L bind -n M-l select-pane -R bind -n M-k select-pane -U bind -n M-j select-pane -D
+```
+
+
+  <div class="onelinelink-wrapper">
+      <a class="onelinelink" href="https://waylonwalker.com/tmux-nav-2021/">
+          <img style="float: right;" align='right' src="https://images.waylonwalker.com/tmux-nav-2021-og_250x140.png" alt="article cover for 
+ How I navigate tmux in 2021
+"/>
+          <p><strong>
+ How I navigate tmux in 2021
+</strong></p>
+      </a>
+  </div>
+
+
+> for more information on how I navigate tmux, check out this full post
+<div class='prevnext'>
+
+    <style type='text/css'>
+
+    :root {
+      --prevnext-color-text: #eefbfe;
+      --prevnext-color-angle: #ff66c4;
+      --prevnext-subtitle-brightness: 3;
+    }
+    [data-theme="light"] {
+      --prevnext-color-text: #1f2022;
+      --prevnext-color-angle: #ffeb00;
+      --prevnext-subtitle-brightness: 3;
+    }
+    [data-theme="dark"] {
+      --prevnext-color-text: #eefbfe;
+      --prevnext-color-angle: #ff66c4;
+      --prevnext-subtitle-brightness: 3;
+    }
+    .prevnext {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .prevnext a {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      text-decoration: none;
+    }
+    a.next {
+      justify-content: flex-end;
+    }
+    .prevnext a:hover {
+      background: #00000006;
+    }
+    .prevnext-subtitle {
+      color: var(--prevnext-color-text);
+      filter: brightness(var(--prevnext-subtitle-brightness));
+      font-size: .8rem;
+    }
+    .prevnext-title {
+      color: var(--prevnext-color-text);
+      font-size: 1rem;
+    }
+    .prevnext-text {
+      max-width: 30vw;
+    }
+    </style>
+    
+    <a class='prev' href='/tmux-show-messages'>
+    
+
+        <svg width="50px" height="50px" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.5 8.25L9.75 12L13.5 15.75" stroke="var(--prevnext-color-angle)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"> </path>
+        </svg>
+        <div class='prevnext-text'>
+            <p class='prevnext-subtitle'>prev</p>
+            <p class='prevnext-title'>tmux show-messages</p>
+        </div>
+    </a>
+    
+    <a class='next' href='/tmux-select-layout'>
+    
+        <div class='prevnext-text'>
+            <p class='prevnext-subtitle'>next</p>
+            <p class='prevnext-title'>tmux select-layout</p>
+        </div>
+        <svg width="50px" height="50px" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5 15.75L14.25 12L10.5 8.25" stroke="var(--prevnext-color-angle)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+    </a>
+  </div>
